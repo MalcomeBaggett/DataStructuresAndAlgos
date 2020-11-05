@@ -1,18 +1,12 @@
 ﻿using System;
-using Algos.DataStructures;
-
+using Algos.ArrayAlgos;
 namespace Algos
 {
     class Program
     {
         static void Main(string[] args)
         {
-            SingleyLinkedList SLL = new SingleyLinkedList();
-            SLL.AddNode(1);
-            SLL.AddNode(2);
-            SLL.AddNode(3);
-
-            Console.WriteLine(SLL.NodeCount);
+            ArrayAlgos.SumOfTwo.TwoNumberSum(new int[] { 3, 5, -4, 8, 11, 1, -1, 6 }, 10);
         }
     }
 }
